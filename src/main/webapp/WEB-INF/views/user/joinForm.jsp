@@ -13,7 +13,8 @@
 		</div>
 
 		<div class="form-group">
-			<label for="email">Email</label> <input type="email" class="form-control" placeholder="Enter email" id="email">
+			<label for="email">Email</label>
+			<input type="email" class="form-control" placeholder="Enter email" id="email">
 		</div>
 
 	</form>
@@ -21,6 +22,6 @@
 
 </div>
 
-<script src="/blog/js/user.js"></script>
+<script src="/js/user.js"></script>
 <%@ include file="../layout/footer.jsp"%>
 
