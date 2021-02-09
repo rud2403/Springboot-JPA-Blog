@@ -19,7 +19,7 @@ let index = {
 			type: "POST",
 			url: "/auth/joinProc",
 			data: JSON.stringify(data), // http body 데이터
-			contentType: "application/json;charset=utf-8", // body데이터가 어떤 타입인지
+			contentType: "application/json; charset=utf-8", // body데이터가 어떤 타입인지
 			dataType: "json"
 		}).done(function(resp) {
 			alert("회원가입이 완료되었습니다.");
